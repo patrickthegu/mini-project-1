@@ -1,18 +1,17 @@
 body {
 text-align: center;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: 'Franklin Gothic Medium', Arial, 'Arial Narrow',  sans-serif;
 }
 
 
 header {
     background-color: darkolivegreen;
     border-bottom: 10px solid lightgreen;
-
 }
 
 nav {
     text-align: right;
-    
+    padding: 10px;
 }
 
 
@@ -20,11 +19,22 @@ li {
     list-style-type: none;
     display: inline;
     font-size: 30px;
+    /* added padding */
+    padding: 20px;
 }
 
 a{
     text-decoration: none;
     color: white;
+}
+
+/* styled the figure and figcaption to add some spacing */
+figure {
+    padding-bottom: 30px;
+}
+
+figcaption {
+    padding-top: 15px;
 }
 
 section {
@@ -33,22 +43,26 @@ section {
     border-bottom: 3px solid darkolivegreen;
 }
 
+/* added border radius and margin and padding for spacing */
 form {
     display: inline-block;
-    
     width: 400px;
     border: 5px solid darkolivegreen;
-    margin: 50px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 h3 {
     position: relative;
     left: -30px;
 }
+
+/* changed font colour to white to be more visible */
 button {
     background-color: darkolivegreen;
     position: relative;
-    top: -20px;
     height: 50px;
     width: 100px;
+    color: white;
 }
